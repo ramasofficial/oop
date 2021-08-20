@@ -16,10 +16,10 @@ class UserController
         $this->repository = $repository;
     }
 
-    public function save(): bool
+    public function store(): bool
     {
         $user = new User('test112');
 
-        return $this->repository->save($user);
+        return $this->repository->store($user);
     }
 }

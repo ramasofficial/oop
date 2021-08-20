@@ -16,7 +16,7 @@ class UserRepository
 
     }
 
-    public function save(User $user): bool
+    public function store(User $user): bool
     {
         // Saving logic
 
