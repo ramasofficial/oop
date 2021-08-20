@@ -7,7 +7,7 @@ namespace OOP\SOLID\O;
 class AreaCalculator
 {
     /**
-     * @var array|ShapeInterface
+     * @var array|ShapeInterface[]
      */
     private $shapes;
 
