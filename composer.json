@@ -1,0 +1,18 @@
+{
+    "name": "ramas/oop",
+    "description": "OOP principles and SOLID examples in PHP.",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ramas",
+            "email": "ramas.developer@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {"OOP\\": "src/"}
+    }
+}
