@@ -6,8 +6,18 @@ namespace OOP\Polymorphism;
 
 class TextOutput implements OutputInterface
 {
-    public function output(string $string): string
+    /**
+     * @var string
+     */
+    private $string;
+
+    public function __construct(string $string)
     {
-        return $string;
+        $this->string = $string;
+    }
+
+    public function output(): string
+    {
+        return $this->string;
     }
 }

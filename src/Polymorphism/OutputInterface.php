@@ -6,5 +6,5 @@ namespace OOP\Polymorphism;
 
 interface OutputInterface
 {
-    public function output(string $string): string;
+    public function output(): string;
 }

@@ -6,8 +6,18 @@ namespace OOP\Polymorphism;
 
 class JsonOutput implements OutputInterface
 {
-    public function output(string $string): string
+    /**
+     * @var array
+     */
+    private $array;
+
+    public function __construct(array $array)
     {
-        return json_encode($string);
+        $this->array = $array;
+    }
+
+    public function output(): string
+    {
+        return json_encode($this->array);
     }
 }
