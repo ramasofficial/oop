@@ -13,8 +13,6 @@ $userMapper = new UserDataMapper(new ArrayAdapter(['name' => 'John', 'lastName' 
 
 echo '<pre>';
 $user = $userMapper->findByKey(['name', 'lastName', 'age']);
-var_dump($userMapper);
-
-echo NEW_LINE . NEW_LINE;
+//var_dump($userMapper);
 
 echo sprintf('%s %s - %d years old.', $user->getName(), $user->getLastName(), $user->getAge());

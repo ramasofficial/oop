@@ -1,5 +1,5 @@
 # DataMapper pattern
-More information about DTO pattern you can find here:
+More information about DataMapper pattern you can find here:
 https://designpatternsphp.readthedocs.io/en/latest/Structural/DataMapper/README.html
 
 # Purpose
